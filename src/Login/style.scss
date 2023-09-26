@@ -1,0 +1,16 @@
+.loginPage {
+  display: flex;
+  width: 100%;
+  .form-sec {
+    width: 274px;
+  }
+  .bg {
+    width: 100%;
+    position: relative;
+    img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+  }
+}

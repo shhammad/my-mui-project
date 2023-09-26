@@ -1,0 +1,75 @@
+.loginForm {
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100wv;
+  margin-left: 170px;
+  .heading {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  .form {
+    form {
+      .field {
+        margin-top: 27px;
+        .MuiFormControl-root {
+          margin: 0;
+        }
+        .css-r47a1p-MuiFormControl-root {
+          width: 100%;
+          .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+            padding: 14px 0;
+          }
+        }
+        .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+          padding: 14px 0;
+        }
+        .MuiOutlinedInput-root {
+          border-radius: 10px;
+          background-color: #fff;
+        }
+      }
+      .checkboxs {
+        margin-left: 30px;
+        margin-top: 10px;
+        .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+        .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+          color: #e84d3e;
+        }
+        .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+          color: #000;
+          font-family: Helvetica;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .submit {
+        .MuiButton-contained {
+          width: 100%;
+          border-radius: 32px;
+          padding: 14px;
+          margin-top: 10px;
+          background: linear-gradient(#e7463f 0%, #ef8439 50%) no-repeat;
+          color: #fff;
+          font-family: Helvetica;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: unset;
+        }
+      }
+    }
+  }
+}
